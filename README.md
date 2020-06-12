@@ -1,3 +1,7 @@
+In this project I am fetching user data from api through 'axios'
+I have used {useReducer} hooks to manage state
+and added some navingations through 'react-router-dom'
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

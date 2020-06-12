@@ -8,8 +8,8 @@ import UserData from "./component/UserData";
 function App() {
   return (
     <div className="App">
+      <Route exact path="/" component={UserData} />
       <Switch>
-        <Route exact path="/" component={UserData} />
         <Route exact path="/home" component={Homepage} />
         <Route exact path="/shop" component={ShopPage} />
         <Route exact path="/signin" component={SignIn} />
